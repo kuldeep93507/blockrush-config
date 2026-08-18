@@ -1,8 +1,11 @@
-﻿{
-  "version": 11,
+{
+  "version": 2,
   "ads": {
-    "networks": ["applovin", "admob", "unity"],
-    "interstitialEveryNGames": 2,
+    "networks": [
+      "applovin",
+      "admob"
+    ],
+    "interstitialEveryNGames": 3,
     "bannerEnabled": true,
     "rewardedEnabled": true
   },
@@ -13,45 +16,28 @@
     "dailySpinEnabled": true
   },
   "houseAds": {
-    "enabled": true,
-    "strip": {
-      "title": "More by MMB",
-      "desc": "Visit mmb.company",
-      "icon": "https://mmb-company.vercel.app/icon-192.png",
-      "url": "https://mmb.company"
-    },
+    "enabled": false,
+    "strip": null,
     "popup": null,
-    "games": [
-      {
-        "name": "MMB Company",
-        "desc": "Games, Tools & Digital Products",
-        "icon": "https://mmb-company.vercel.app/icon-192.png",
-        "url": "https://mmb.company",
-        "comingSoon": false
-      },
-      {
-        "name": "Nut & Bolt Sort",
-        "desc": "Addictive puzzle game by MMB",
-        "icon": "https://mmb-company.vercel.app/icon-192.png",
-        "url": "https://mmb.company",
-        "comingSoon": false
-      },
-      {
-        "name": "Donut Sort 3D",
-        "desc": "Fun sorting game - Coming Soon!",
-        "icon": "https://mmb-company.vercel.app/icon-192.png",
-        "url": "https://mmb.company",
-        "comingSoon": true
-      }
-    ]
+    "games": []
   },
   "rewards": {
-    "enabled": true,
+    "enabled": false,
     "milestones": [
-      { "score": 1000000, "amount": 250, "currency": "Rs", "label": "10 Lakh Club" },
-      { "score": 500000, "amount": 100, "currency": "Rs", "label": "5 Lakh Legend" }
+      {
+        "score": 100000,
+        "amount": 250,
+        "currency": "₹",
+        "label": "1 Lakh Score"
+      },
+      {
+        "score": 500000,
+        "amount": 100,
+        "currency": "₹",
+        "label": "5 Lakh Score"
+      }
     ],
-    "adminEmail": "admin@mmb.company",
+    "adminEmail": "",
     "upi": "",
     "claimUrl": "https://mmb.company/claim"
   },
@@ -62,7 +48,7 @@
     "url": ""
   },
   "maintenance": {
-    "on": false,
+    "on": true,
     "message": ""
   }
 }
