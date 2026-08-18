@@ -1,5 +1,5 @@
 {
-  "version": 13,
+  "version": 14,
   "ads": {
     "networks": [
       "admob",
@@ -76,7 +76,7 @@
   },
   "news": {
     "id": "v13",
-    "title": "\ud83c\udf89 Update Ready!",
+    "title": "🎉 Update Ready!",
     "body": "Block Rush v1.9 is LIVE. Thanks for playing!"
   },
   "update": {
