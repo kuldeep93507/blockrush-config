@@ -1,5 +1,5 @@
 {
-  "version": 14,
+  "version": 15,
   "ads": {
     "networks": [
       "admob",
@@ -74,18 +74,14 @@
     "upi": "",
     "claimUrl": "payout.html"
   },
-  "news": {
-    "id": "v13",
-    "title": "🎉 Update Ready!",
-    "body": "Block Rush v1.9 is LIVE. Thanks for playing!"
-  },
+  "news": null,
   "update": {
     "required": false,
     "minVersion": 0,
     "url": ""
   },
   "maintenance": {
-    "on": true,
-    "message": "Naya update aa raha hai! 2 minute mein wapas aao \ud83d\ude80"
+    "on": false,
+    "message": ""
   }
 }
