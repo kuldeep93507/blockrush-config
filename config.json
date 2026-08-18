@@ -1,5 +1,5 @@
 {
-  "version": 2,
+  "version": 3,
   "ads": {
     "networks": [
       "applovin",
@@ -27,13 +27,13 @@
       {
         "score": 100000,
         "amount": 250,
-        "currency": "₹",
+        "currency": "â¹",
         "label": "1 Lakh Score"
       },
       {
         "score": 500000,
         "amount": 100,
-        "currency": "₹",
+        "currency": "â¹",
         "label": "5 Lakh Score"
       }
     ],
@@ -43,9 +43,9 @@
   },
   "news": null,
   "update": {
-    "required": false,
+    "required": true,
     "minVersion": 0,
-    "url": ""
+    "url": "https://play.google.com/store/apps/details?id=com.mmb.blockrush&pcampaignid=web_share"
   },
   "maintenance": {
     "on": true,
