@@ -1,5 +1,5 @@
 {
-  "version": 20,
+  "version": 21,
   "ads": {
     "networks": [
       "admob",
@@ -10,7 +10,7 @@
     "rewardedEnabled": true
   },
   "economy": {
-    "coinsPerLine": 1,
+    "coinsPerLine": 5,
     "comboCoinMultiplier": 2,
     "levelWinBase": 30,
     "dailySpinEnabled": true
