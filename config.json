@@ -1,5 +1,5 @@
 {
-  "version": 18,
+  "version": 19,
   "ads": {
     "networks": [
       "admob",
@@ -77,7 +77,7 @@
   "news": null,
   "update": {
     "required": false,
-    "minVersion": 0,
+    "minVersion": 13,
     "url": ""
   },
   "maintenance": {
