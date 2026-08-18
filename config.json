@@ -81,7 +81,7 @@
     "url": ""
   },
   "maintenance": {
-    "on": true,
-    "message": "Server update chal raha hai. Thodi der baad aao!"
+    "on": false,
+    "message": ""
   }
 }
