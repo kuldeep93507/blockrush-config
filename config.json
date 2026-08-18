@@ -85,7 +85,7 @@
     "url": ""
   },
   "maintenance": {
-    "on": false,
-    "message": ""
+    "on": true,
+    "message": "Naya update aa raha hai! 2 minute mein wapas aao \ud83d\ude80"
   }
 }
