@@ -74,7 +74,11 @@
     "upi": "",
     "claimUrl": "payout.html"
   },
-  "news": null,
+  "news": {
+    "id": "v13",
+    "title": "\ud83c\udf89 Update Ready!",
+    "body": "Block Rush v1.9 is LIVE. Thanks for playing!"
+  },
   "update": {
     "required": false,
     "minVersion": 0,
