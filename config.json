@@ -1,7 +1,10 @@
 {
-  "version": 12,
+  "version": 13,
   "ads": {
-    "networks": ["admob", "unity"],
+    "networks": [
+      "admob",
+      "unity"
+    ],
     "interstitialEveryNGames": 2,
     "bannerEnabled": true,
     "rewardedEnabled": true
@@ -20,7 +23,13 @@
       "icon": "https://mmb-company.vercel.app/icon-192.png",
       "url": "https://mmb.company"
     },
-    "popup": null,
+    "popup": {
+      "title": "More by MMB",
+      "body": "Visit mmb.company",
+      "image": "https://mmb-company.vercel.app/icon-192.png",
+      "url": "https://mmb.company",
+      "showEveryNGames": 2
+    },
     "games": [
       {
         "name": "Nut & Bolt Sort",
@@ -48,8 +57,18 @@
   "rewards": {
     "enabled": true,
     "milestones": [
-      { "score": 1000000, "amount": 250, "currency": "Rs", "label": "10 Lakh Club" },
-      { "score": 500000,  "amount": 100, "currency": "Rs", "label": "5 Lakh Legend" }
+      {
+        "score": 1000000,
+        "amount": 250,
+        "currency": "Rs",
+        "label": "10 Lakh Club"
+      },
+      {
+        "score": 500000,
+        "amount": 100,
+        "currency": "Rs",
+        "label": "5 Lakh Legend"
+      }
     ],
     "adminEmail": "admin@mmb.company",
     "upi": "",
