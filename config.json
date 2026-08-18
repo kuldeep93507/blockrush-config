@@ -1,5 +1,5 @@
 {
-  "version": 3,
+  "version": 4,
   "ads": {
     "networks": [
       "applovin",
@@ -22,13 +22,13 @@
     "games": []
   },
   "rewards": {
-    "enabled": false,
+    "enabled": true,
     "milestones": [
       {
-        "score": 100000,
+        "score": 1000000,
         "amount": 250,
         "currency": "â¹",
-        "label": "1 Lakh Score"
+        "label": "10 Lakh Score"
       },
       {
         "score": 500000,
