@@ -1,11 +1,8 @@
 {
-  "version": 4,
+  "version": 12,
   "ads": {
-    "networks": [
-      "applovin",
-      "admob"
-    ],
-    "interstitialEveryNGames": 3,
+    "networks": ["applovin", "admob", "unity"],
+    "interstitialEveryNGames": 2,
     "bannerEnabled": true,
     "rewardedEnabled": true
   },
@@ -16,39 +13,56 @@
     "dailySpinEnabled": true
   },
   "houseAds": {
-    "enabled": false,
-    "strip": null,
+    "enabled": true,
+    "strip": {
+      "title": "More by MMB",
+      "desc": "Visit mmb.company",
+      "icon": "https://mmb-company.vercel.app/icon-192.png",
+      "url": "https://mmb.company"
+    },
     "popup": null,
-    "games": []
+    "games": [
+      {
+        "name": "Nut & Bolt Sort",
+        "desc": "Addictive glass puzzle by MMB",
+        "icon": "https://mmb-company.vercel.app/icon-192.png",
+        "url": "https://play.google.com/store/apps/developer?id=MMB+Games",
+        "comingSoon": false
+      },
+      {
+        "name": "Donut Sort 3D",
+        "desc": "Fun donut sorting game",
+        "icon": "https://mmb-company.vercel.app/icon-192.png",
+        "url": "https://play.google.com/store/apps/developer?id=MMB+Games",
+        "comingSoon": false
+      },
+      {
+        "name": "MMB Games",
+        "desc": "All games & tools at mmb.company",
+        "icon": "https://mmb-company.vercel.app/icon-192.png",
+        "url": "https://mmb.company",
+        "comingSoon": false
+      }
+    ]
   },
   "rewards": {
     "enabled": true,
     "milestones": [
-      {
-        "score": 1000000,
-        "amount": 250,
-        "currency": "â¹",
-        "label": "10 Lakh Score"
-      },
-      {
-        "score": 500000,
-        "amount": 100,
-        "currency": "â¹",
-        "label": "5 Lakh Score"
-      }
+      { "score": 1000000, "amount": 250, "currency": "Rs", "label": "10 Lakh Club" },
+      { "score": 500000,  "amount": 100, "currency": "Rs", "label": "5 Lakh Legend" }
     ],
-    "adminEmail": "",
+    "adminEmail": "admin@mmb.company",
     "upi": "",
-    "claimUrl": "https://mmb.company/claim"
+    "claimUrl": "payout.html"
   },
   "news": null,
   "update": {
-    "required": true,
+    "required": false,
     "minVersion": 0,
-    "url": "https://play.google.com/store/apps/details?id=com.mmb.blockrush&pcampaignid=web_share"
+    "url": ""
   },
   "maintenance": {
-    "on": true,
+    "on": false,
     "message": ""
   }
 }
