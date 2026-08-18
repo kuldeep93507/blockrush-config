@@ -1,5 +1,5 @@
 {
-  "version": 23,
+  "version": 24,
   "ads": {
     "networks": [
       "admob",
@@ -17,8 +17,19 @@
   },
   "houseAds": {
     "enabled": true,
-    "strip": null,
-    "popup": null,
+    "strip": {
+      "title": "",
+      "desc": "",
+      "icon": "",
+      "url": ""
+    },
+    "popup": {
+      "title": "",
+      "body": "",
+      "image": "",
+      "url": "",
+      "showEveryNGames": 5
+    },
     "games": [
       {
         "name": "Nut & Bolt Sort",
@@ -37,6 +48,13 @@
       {
         "name": "MMB Games",
         "desc": "All games & tools at mmb.company",
+        "icon": "https://mmb-company.vercel.app/icon-192.png",
+        "url": "https://mmb.company",
+        "comingSoon": false
+      },
+      {
+        "name": "MMB Company",
+        "desc": "Visit our official website",
         "icon": "https://mmb-company.vercel.app/icon-192.png",
         "url": "https://mmb.company",
         "comingSoon": false
