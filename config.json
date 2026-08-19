@@ -1,5 +1,5 @@
 {
-  "version": 25,
+  "version": 26,
   "ads": {
     "networks": [
       "admob",
@@ -96,7 +96,7 @@
     "url": ""
   },
   "maintenance": {
-    "on": true,
+    "on": false,
     "message": "block\n"
   }
 }
