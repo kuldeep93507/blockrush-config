@@ -1,12 +1,12 @@
 {
-  "version": 35,
+  "version": 36,
   "ads": {
     "networks": [
       "admob",
       "unity"
     ],
     "interstitialEveryNGames": 1,
-    "bannerEnabled": false,
+    "bannerEnabled": true,
     "rewardedEnabled": true
   },
   "economy": {
