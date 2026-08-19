@@ -1,13 +1,12 @@
 {
-  "version": 30,
+  "version": 31,
   "ads": {
     "networks": [
       "admob",
       "unity"
     ],
-    "interstitialEveryNGames": 2,
+    "interstitialEveryNGames": 3,
     "bannerEnabled": true,
-    "interstitialEnabled": true,
     "rewardedEnabled": true
   },
   "economy": {
@@ -18,9 +17,6 @@
   },
   "houseAds": {
     "enabled": true,
-    "houseBanner": {
-      "enabled": false
-    },
     "strip": null,
     "popup": null,
     "games": [
@@ -55,9 +51,6 @@
     "claimUrl": "payout.html"
   },
   "news": null,
-  "mmbPromo": {
-    "enabled": true
-  },
   "update": {
     "required": false,
     "minVersion": 13,
