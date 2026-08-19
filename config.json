@@ -1,5 +1,5 @@
 {
-  "version": 27,
+  "version": 28,
   "ads": {
     "networks": [
       "admob",
@@ -43,12 +43,6 @@
   "rewards": {
     "enabled": true,
     "milestones": [
-      {
-        "score": 1000000,
-        "amount": 250,
-        "currency": "Rs",
-        "label": "10 Lakh Club"
-      },
       {
         "score": 500000,
         "amount": 100,
