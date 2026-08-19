@@ -1,5 +1,5 @@
 {
-  "version": 24,
+  "version": 25,
   "ads": {
     "networks": [
       "admob",
@@ -7,6 +7,7 @@
     ],
     "interstitialEveryNGames": 1,
     "bannerEnabled": true,
+    "interstitialEnabled": true,
     "rewardedEnabled": true
   },
   "economy": {
@@ -17,6 +18,13 @@
   },
   "houseAds": {
     "enabled": true,
+    "houseBanner": {
+      "enabled": true,
+      "imageUrl": "",
+      "linkUrl": "https://mmb.company",
+      "text": "🎮 MMB Games — Aur bhi khelein!",
+      "bgColor": "#1b3496"
+    },
     "strip": {
       "title": "",
       "desc": "",
