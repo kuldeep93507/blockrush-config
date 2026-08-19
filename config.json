@@ -1,5 +1,5 @@
 {
-  "version": 26,
+  "version": 27,
   "ads": {
     "networks": [
       "admob",
@@ -19,45 +19,16 @@
   "houseAds": {
     "enabled": true,
     "houseBanner": {
-      "enabled": true,
-      "imageUrl": "",
-      "linkUrl": "https://mmb.company",
-      "text": "🎮 MMB Games — Aur bhi khelein!",
-      "bgColor": "#1b3496"
+      "enabled": false
     },
-    "strip": {
-      "title": "",
-      "desc": "",
-      "icon": "",
-      "url": ""
-    },
-    "popup": {
-      "title": "",
-      "body": "",
-      "image": "",
-      "url": "",
-      "showEveryNGames": 5
-    },
+    "strip": null,
+    "popup": null,
     "games": [
-      {
-        "name": "Nut & Bolt Sort",
-        "desc": "Addictive glass puzzle by MMB",
-        "icon": "https://mmb-company.vercel.app/icon-192.png",
-        "url": "https://play.google.com/store/apps/developer?id=MMB+Games",
-        "comingSoon": false
-      },
       {
         "name": "Donut Sort 3D",
         "desc": "Fun donut sorting game",
         "icon": "https://mmb-company.vercel.app/icon-192.png",
         "url": "https://play.google.com/store/apps/developer?id=MMB+Games",
-        "comingSoon": false
-      },
-      {
-        "name": "MMB Games",
-        "desc": "All games & tools at mmb.company",
-        "icon": "https://mmb-company.vercel.app/icon-192.png",
-        "url": "https://mmb.company",
         "comingSoon": false
       },
       {
@@ -90,6 +61,9 @@
     "claimUrl": "payout.html"
   },
   "news": null,
+  "mmbPromo": {
+    "enabled": true
+  },
   "update": {
     "required": false,
     "minVersion": 13,
