@@ -1,8 +1,8 @@
 {
-  "version": 39,
+  "version": 40,
   "ads": {
     "networks": [
-      "admob",
+      "pangle",
       "unity"
     ],
     "interstitialEveryNGames": 3,
