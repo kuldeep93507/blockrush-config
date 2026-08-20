@@ -1,5 +1,5 @@
 {
-  "version": 41,
+  "version": 42,
   "ads": {
     "networks": [
       "pangle",
@@ -53,7 +53,7 @@
   },
   "news": null,
   "update": {
-    "required": false,
+    "required": true,
     "minVersion": 13,
     "url": "https://play.google.com/store/apps/details?id=com.mmb.blockrush&pcampaignid=web_share"
   },
