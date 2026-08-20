@@ -1,11 +1,11 @@
 {
-  "version": 51,
+  "version": 52,
   "ads": {
     "networks": [
       "pangle",
       "unity"
     ],
-    "interstitialEveryNGames": 3,
+    "interstitialEveryNGames": 1,
     "bannerEnabled": false,
     "interstitialEnabled": true,
     "rewardedEnabled": true
