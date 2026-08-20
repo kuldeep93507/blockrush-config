@@ -1,5 +1,5 @@
 {
-  "version": 44,
+  "version": 45,
   "ads": {
     "networks": [
       "pangle",
@@ -58,7 +58,7 @@
     "url": "https://play.google.com/store/apps/details?id=com.mmb.blockrush&pcampaignid=web_share"
   },
   "maintenance": {
-    "on": true,
+    "on": false,
     "message": "block\n"
   }
 }
