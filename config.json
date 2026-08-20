@@ -1,7 +1,8 @@
 {
-  "version": 52,
+  "version": 53,
   "ads": {
     "networks": [
+      "admob",
       "pangle",
       "unity"
     ],
