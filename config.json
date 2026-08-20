@@ -1,5 +1,5 @@
 {
-  "version": 49,
+  "version": 50,
   "ads": {
     "networks": [
       "admob",
@@ -8,7 +8,7 @@
     ],
     "interstitialEveryNGames": 3,
     "bannerEnabled": false,
-    "interstitialEnabled": false,
+    "interstitialEnabled": true,
     "rewardedEnabled": true
   },
   "economy": {
