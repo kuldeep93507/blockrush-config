@@ -1,14 +1,14 @@
 {
-  "version": 54,
+  "version": 55,
   "ads": {
     "networks": [
       "admob",
       "pangle",
       "unity"
     ],
-    "interstitialEveryNGames": 1,
+    "interstitialEveryNGames": 2,
     "bannerEnabled": false,
-    "interstitialEnabled": true,
+    "interstitialEnabled": false,
     "rewardedEnabled": true
   },
   "economy": {
