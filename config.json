@@ -1,5 +1,5 @@
 {
-  "version": 58,
+  "version": 59,
   "ads": {
     "networks": [
       "admob",
@@ -62,7 +62,7 @@
   },
   "update": {
     "required": true,
-    "minVersion": 13,
+    "minVersion": 14,
     "url": "https://play.google.com/store/apps/details?id=com.mmb.blockrush&pcampaignid=web_share"
   },
   "maintenance": {
