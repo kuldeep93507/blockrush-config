@@ -1,5 +1,5 @@
 {
-  "version": 57,
+  "version": 58,
   "ads": {
     "networks": [
       "admob",
@@ -9,7 +9,8 @@
     "interstitialEveryNGames": 2,
     "bannerEnabled": false,
     "interstitialEnabled": true,
-    "rewardedEnabled": true
+    "rewardedEnabled": true,
+    "testMode": false
   },
   "economy": {
     "coinsPerLine": 1,
@@ -19,6 +20,9 @@
   },
   "houseAds": {
     "enabled": true,
+    "houseBanner": {
+      "enabled": false
+    },
     "strip": null,
     "popup": null,
     "games": [
@@ -53,6 +57,9 @@
     "claimUrl": "payout.html"
   },
   "news": null,
+  "mmbPromo": {
+    "enabled": true
+  },
   "update": {
     "required": true,
     "minVersion": 13,
