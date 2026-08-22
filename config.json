@@ -1,5 +1,5 @@
 {
-  "version": 59,
+  "version": 60,
   "ads": {
     "networks": [
       "admob",
@@ -44,14 +44,7 @@
   },
   "rewards": {
     "enabled": true,
-    "milestones": [
-      {
-        "score": 500000,
-        "amount": 100,
-        "currency": "Rs",
-        "label": "5 Lakh Legend"
-      }
-    ],
+    "milestones": [],
     "adminEmail": "admin@mmb.company",
     "upi": "",
     "claimUrl": "payout.html"
