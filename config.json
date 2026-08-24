@@ -1,5 +1,5 @@
 {
-  "version": 61,
+  "version": 62,
   "ads": {
     "networks": [
       "admob",
@@ -14,7 +14,7 @@
   "economy": {
     "coinsPerLine": 1,
     "comboCoinMultiplier": 2,
-    "levelWinBase": 30,
+    "levelWinBase": 10,
     "dailySpinEnabled": true
   },
   "houseAds": {
