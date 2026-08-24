@@ -1,11 +1,11 @@
 {
-  "version": 62,
+  "version": 63,
   "ads": {
     "networks": [
       "admob",
       "unity"
     ],
-    "interstitialEveryNGames": 2,
+    "interstitialEveryNGames": 4,
     "bannerEnabled": false,
     "interstitialEnabled": true,
     "rewardedEnabled": true,
