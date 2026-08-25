@@ -1,7 +1,8 @@
 {
-  "version": 67,
+  "version": 68,
   "ads": {
     "networks": [
+      "admob",
       "unity"
     ],
     "interstitialEveryNGames": 3,
