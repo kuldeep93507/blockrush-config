@@ -1,5 +1,5 @@
 {
-  "version": 70,
+  "version": 71,
   "ads": {
     "networks": [
       "admob",
@@ -9,7 +9,34 @@
     "bannerEnabled": false,
     "interstitialEnabled": true,
     "rewardedEnabled": true,
-    "testMode": false
+    "testMode": false,
+    "networkConfig": {
+      "admob": {
+        "banner": "",
+        "interstitial": "",
+        "rewarded": ""
+      },
+      "unity": {
+        "banner": "",
+        "interstitial": "",
+        "rewarded": ""
+      },
+      "pangle": {
+        "banner": "",
+        "interstitial": "",
+        "rewarded": ""
+      },
+      "applovin": {
+        "banner": "",
+        "interstitial": "",
+        "rewarded": ""
+      },
+      "bidmachine": {
+        "banner": "",
+        "interstitial": "",
+        "rewarded": ""
+      }
+    }
   },
   "economy": {
     "coinsPerLine": 1,
