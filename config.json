@@ -1,5 +1,5 @@
 {
-  "version": 71,
+  "version": 72,
   "ads": {
     "networks": [
       "admob",
@@ -81,7 +81,7 @@
   },
   "update": {
     "required": true,
-    "minVersion": 14,
+    "minVersion": 2.6,
     "url": "https://play.google.com/store/apps/details?id=com.mmb.blockrush&pcampaignid=web_share"
   },
   "maintenance": {
