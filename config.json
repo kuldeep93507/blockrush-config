@@ -1,5 +1,5 @@
 {
-  "version": 73,
+  "version": 74,
   "ads": {
     "networks": [
       "admob",
@@ -75,7 +75,11 @@
     "upi": "",
     "claimUrl": "payout.html"
   },
-  "news": null,
+  "news": {
+    "id": 1,
+    "title": "NEW UPDATE!",
+    "body": "2.6 updae"
+  },
   "mmbPromo": {
     "enabled": true
   },
